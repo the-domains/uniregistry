@@ -1,14 +1,26 @@
-layout_spectrum: 1
 color:
   saturation: 0.009129935
-  lightness: 0
   brandStrength: 1
+  rhythmicContrast: 0.1766917
   brandColors:
     - '#CECEC7'
     - '#0D0D0D'
     - '#A2A49A'
     - '#7F817E'
     - '#421F02'
-  rhythmicContrast: 0.1766917
+  lightness: 0
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+layout_spectrum: 1
 typography_spectrum: 0.7867884
 name: Uniregistry
